@@ -1,0 +1,91 @@
+/* style.css */
+
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-image:
+      radial-gradient(farthest-corner at 40px 40px, #ff69b4, #ff99cc),
+      linear-gradient(to bottom, #33ccff, #66ffff),
+      url('https://picsum.photos/200/300'); /* Add a background image */
+    background-size: 300px 300px, 100% 100%, cover;
+    background-position: 0% 0%, 100% 100%, center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    font-weight: bold;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  /* Colors */
+  
+  .blue {
+    color: blue;
+  }
+  
+  /* Custom Styles */
+  
+  .about-me {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  .reflection {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  /* Responsive Design */
+  
+  @media (max-width: 768px) {
+    section {
+      max-width: 600px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    section {
+      max-width: 400px;
+    }
+  }
